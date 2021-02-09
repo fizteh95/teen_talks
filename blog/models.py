@@ -11,6 +11,7 @@ class Post(models.Model):
     )
     body = models.TextField()
     content = RichTextField()
- 
+    preview = models.ImageField(upload_to='images/')
+
     def __str__(self):
         return self.title

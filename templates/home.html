@@ -4,6 +4,7 @@
 {% block content %}
   {% for post in object_list %}
     <div class="post-entry">
+      <img src="{{ post.preview.url }}" class="img-responsive" style="max-height: 300px;">
       <h2><a href="{% url 'post_detail' post.pk %}">{{ post.title }}</a></h2>
       <p>{{ post.body }}</p>
     </div>

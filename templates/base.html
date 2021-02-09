@@ -36,25 +36,6 @@
 
     </body>
     <script>
-    // window.addEventListener('scroll', function() {
-    //     let a = document.getElementById('head_nav');
-    //     let offset = pageYOffset;
-    //     if (offset >= 30)
-    //     {
-    //         //a.style.opacity = 0.5;
-    //         a.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-    //         $('#img_div').animate({'height':'70px'}, 300) 
-    //         $('#head_nav').animate({'height':'70px'}, 300) 
-    //     }
-    //     else
-    //     {
-    //         //a.style.opacity = 0.5;
-    //         a.style.backgroundColor = "rgba(255, 255, 255, 1)";
-    //         $('#img_div').animate({'height':'106px'}, 300) 
-    //         $('#head_nav').animate({'height':'106px'}, 300) 
-    //     }
-
-    // });
         var content = $('.content');
         $(window).on("scroll", function() {
           content[$(this).scrollTop() > 50 ? 'addClass' : 'removeClass']('scrolled');
