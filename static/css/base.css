@@ -13,6 +13,7 @@
 
 
 body {
+    /*font-family: Bitum,sans-serif!important;*/
 	font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -24,6 +25,20 @@ body {
   position: relative;
   /*height: 2000px;*/
   /*background: #eee;*/
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 2vw;
+ }
+
+#grid > div {
+  /*font-size: 5vw;*/
+  overflow:hidden;
+  /*padding: .5em;*/
+  /*background: gold;*/
+  text-align: center;
 }
 
 .header {
