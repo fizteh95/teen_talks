@@ -7,9 +7,10 @@ from .models import Post
 
 
 class BlogListView(ListView):
-    paginate_by = 6
+    paginate_by = 18
     model = Post
     template_name = 'home.html'
+    ordering = ['-id']
 
 
 class BlogDetailView(DetailView):
