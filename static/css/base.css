@@ -26,6 +26,7 @@
 body {
     /*font-family: Bitum,sans-serif!important;*/
 	/*font-family: 'Source Sans Pro', sans-serif;*/
+    position: relative;
     font-size: 18px;
     margin: 0;
     padding-left: 10%;
@@ -60,8 +61,8 @@ body {
 }
 
 .header {
-	display: flex;
-	justify-content: space-between;
+	/*display: flex;
+	justify-content: space-between;*/
     position: fixed;
     top: 0;
     right: 0;
