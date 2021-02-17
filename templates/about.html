@@ -2,6 +2,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
+{% load static %}
 
     <p><b>TeenTalksMagazine</b> —  инстернет-журнал для молодого поколения. Здесь ты узнаешь о психологии, стиле, искусстве , образовании , половом воспитании и о многих других темах, которые так волнуют молодежь. Мы не боимся показать нашу реальность, поговорить на запретные темы.</p>
     <p>Период перехода во взрослую жизнь заставляет задуматься над вопросами: Кто я? Как мне двигаться дальше? Что меня ждет впереди?</p>
@@ -11,7 +12,15 @@
 
     <p><b>Team :</b></p>
 
-    <p><b>Полина Липатникова – основатель журнала, главный редактор , контент-мейкер<br>
+
+
+    <div style="vertical-align: middle; display: inline-block;">
+        <img src="{% static 'polya.jpg' %}" style="width: 100px;">
+        <div style="vertical-align: middle; display: inline-block; height: 200px; border: solid; border-color: black;">
+            <b>Полина Липатникова – основатель журнала, главный редактор , контент-мейкер</b>
+        </div>
+<!--        <div id="fix" style="width: 0px; display: inline-block; height: 100%; vertical-align: middle;"></div>-->
+    </div>
     Елена Юровских – редактор<br>
     Мария Манохина – Иллюстратор<br>
     Екатерина Вишнякова – Фотограф<br>
