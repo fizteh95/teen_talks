@@ -28,7 +28,7 @@ SECRET_KEY = 'xa^p87zxk-8d@fn_gagqe2$a1ahquv=7mbkb=(8(yic*exb!^j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['teentalks.pythonanywhere.com']
 
 
 # Application definition
