@@ -2,6 +2,21 @@
 {% extends 'base.html' %}
  
 {% block content %}
+
+  <style type="text/css">
+   A {
+    color: black; /* Цвет ссылок */
+   }
+   A:visited {
+    color: black; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: black; /* Цвет активных ссылок */
+   }
+   A:hover {
+    color: black; /* Цвет над */
+   }
+  </style>
   <div id="grid">
   {% for post in page_obj %}
     <div class="post-entry">
